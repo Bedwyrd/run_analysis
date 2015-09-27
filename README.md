@@ -15,7 +15,7 @@ I added the activity as the last column
 
 I then merged the training and the test sets to create one data set.
 
-The grep for *ean* worked for Mean and mean:
+The grep for "*ean*" worked for Mean and mean:
 j <- grep("*ean*",names(run_analysis_all_data))
 There were no ther STD or Std strings so the following is fine:
 k <- grep("*std*",names(run_analysis_all_data))
